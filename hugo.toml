@@ -1,0 +1,43 @@
+baseURL = 'http://localhost'
+languageCode = 'en-us'
+title = 'Hugo Saasify Theme'
+theme = 'hugo-saasify-theme'
+
+[params]
+  # Theme
+  themeColor = 'blue' # blue (default), green, red, purple
+  darkMode = false
+  
+  # Footer
+  footerTitle = "Ready to get started?"
+  footerDescription = "Get in touch or create an account."
+  footerCopyrightText = "© 2024 Omniroo. All rights reserved."
+
+  # Call to action
+  ctaTitle = "Ready to dive in?"
+  ctaDescription = "Start your free trial today."
+  ctaButtonText = "Get started"
+  ctaButtonUrl = "#"
+
+  # Social links
+  twitter = "#"
+  github = "#"
+  linkedin = "#"
+
+[menu]
+  [[menu.main]]
+    name = "Features"
+    url = "/features"
+    weight = 1
+  [[menu.main]]
+    name = "Pricing"
+    url = "/pricing"
+    weight = 2
+  [[menu.main]]
+    name = "Company"
+    url = "/company"
+    weight = 3
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact"
+    weight = 4
