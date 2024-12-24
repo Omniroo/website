@@ -29,43 +29,43 @@ testimonials:
 >}}
 
 {{< features-section 
-    title="Modern Features for Modern Websites"
-    description="Discover how our theme helps you build fast, beautiful SaaS websites with ease."
+    title="Streamline Your Business Operations"
+    description="Discover how Omniroo automates your customer lifecycle with powerful integration features."
 >}}
 
 {{< feature
-    title="Lightning-Fast Performance"
-    description="Leverage Hugo's blazing-fast build times and optimized output. Your website loads instantly, providing an exceptional user experience."
-    badge="Performance"
+    title="Streamline Subscription Upgrades"
+    description="Enable seamless processes to convert free and trial users into paying customers."
+    badge="Growth"
     badgeColor="#2563eb"
     image="/images/feature-1.svg"
     buttonText="Learn More"
     buttonLink="/features/performance/"
-    features="Sub-second page loads,Optimized assets,Minimal JavaScript,CDN-ready output"
+    features="Power automated upgrade offers,Optimize workflows for trial conversions,Prioritize high-potential users"
     imagePosition="right"
 >}}
 
 {{< feature
-    title="Beautiful Design System"
-    description="Create stunning user interfaces with our comprehensive design system built on TailwindCSS. Customize everything to match your brand."
-    badge="Design"
+    title="Prevent Revenue Leakage"
+    description="Provide the data needed to proactively manage billing and subscription issues."
+    badge="Retention"
     badgeColor="#7c3aed"
     image="/images/feature-2.svg"
     buttonText="Learn More"
     buttonLink="/features/design-system/"
-    features="Modern UI components,Responsive design,Custom typography,Flexible layouts"
+    features="Automate follow-ups for failed payments,Alert at-risk accounts proactively,Enable billing and renewal tracking"
     imagePosition="left"
 >}}
 
 {{< feature
-    title="Developer Experience"
-    description="Enjoy a seamless development experience with hot reload, component-based architecture, and clean, maintainable code."
-    badge="Development"
+    title="Automate for Scaling"
+    description="Facilitate process automation through scalable data flows."
+    badge="Automation"
     badgeColor="#16a34a"
     image="/images/feature-3.svg"
     buttonText="Learn More"
     buttonLink="/features/developer-experience/"
-    features="Component system,Easy customization,Clean code,Detailed documentation"
+    features="Sync data between Stripe and HubSpot,Stream real-time data integration,Grow with scalable workflows and data"
     imagePosition="right"
 >}}
 
