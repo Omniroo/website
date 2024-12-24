@@ -1,12 +1,32 @@
-baseURL = 'http://localhost'
+baseURL = '/'
 languageCode = 'en-us'
-title = 'Hugo Saasify Theme'
+title = 'Omniroo'
 theme = 'hugo-saasify-theme'
 
+# Required Features
+pygmentsCodeFences = true  # Enable syntax highlighting
+pygmentsUseClasses = true
+enableEmoji = true        # Enable emoji support
+enableGitInfo = true      # Enable Git info for lastmod
+
+# Required Module Configuration
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.80.0"
+
+# Required Build Configuration
+[build]
+  writeStats = true      # Required for TailwindCSS
+
 [params]
-  # Theme
-  themeColor = 'blue' # blue (default), green, red, purple
-  darkMode = false
+  description = "Make data sync simple"
+  author = "Omniroo"
+  logo = "/images/logo.svg"
+
+  # Header Logo
+  [params.header.logo]
+    src = "/images/logo.svg"
   
   # Footer
   footerTitle = "Ready to get started?"

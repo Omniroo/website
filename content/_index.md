@@ -1,16 +1,5 @@
 ---
 title: Home
-client_logos:
-  - name: "Customer 1"
-    logo: "/images/logos/customer-1.png"
-  - name: "Customer 2"
-    logo: "/images/logos/customer-2.png"
-  - name: "Customer 3"
-    logo: "/images/logos/customer-3.png"
-  - name: "Customer 4"
-    logo: "/images/logos/customer-4.png"
-  - name: "Customer 5"
-    logo: "/images/logos/customer-5.png"
 testimonials:
   - name: "John Smith"
     title: "CTO at TechStartup"
@@ -27,19 +16,17 @@ testimonials:
 ---
 
 {{< hero 
-    headline="Build Your SaaS Website"
-    sub_headline="Create stunning, responsive websites that load instantly. Built with Hugo and TailwindCSS for maximum performance and flexibility."
+    headline="Automate Your Customer Lifecycle"
+    sub_headline="Seamlessly sync Stripe payments and subscriptions with HubSpot CRM. Streamline customer onboarding, automate interactions, and enhance your business operations with real-time data synchronization."
     primary_button_text="Get Started Free"
     primary_button_url="#"
     secondary_button_text="View Demo"
     secondary_button_url="#"
     hero_image="/images/hero-dashboard.svg"
-    gradient-from="#dbeafe"
-    gradient-to="#f3e8ff"
-    gradient-angle="180"
+    gradient-from="#bfdbfe"
+    gradient-to="#ffffff"
+    gradient-angle="135"
 >}}
-
-{{< client-logos animate="true" >}}
 
 {{< features-section 
     title="Modern Features for Modern Websites"

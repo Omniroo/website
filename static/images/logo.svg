@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="35 36 130 128">
-  <!-- outline around oval -->
-  <ellipse cx="100" cy="100" rx="60" ry="45" fill="none" stroke="#778fe6" stroke-width="8"/>
-  <!-- Blue oval background -->
-  <ellipse cx="100" cy="100" rx="56" ry="41" fill="#425ad6"/>
-  <!-- Yellow lightning bolt -->
-  <path d="M90 40 L130 40 L100 85 L130 85 L70 160 L90 105 L70 105 Z" fill="#f59e0b" stroke="white" stroke-width="2"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="35 35 170 170">  <g fill="none" stroke-width="20">    <!-- Background white rings for gaps -->    <circle cx="120" cy="120" r="75" stroke="white"></circle>    <circle cx="120" cy="120" r="40" stroke="white"></circle>        <!-- Main colored rings -->    <path d="M 120,45 A 75,75 0 0,1 195,120" stroke="#4299e1"></path>    <path d="M 195,120 A 75,75 0 0,1 120,195" stroke="#f6ad55"></path>    <path d="M 120,195 A 75,75 0 0,1 45,120" stroke="#4299e1"></path>    <path d="M 45,120 A 75,75 0 0,1 120,45" stroke="#4299e1"></path>        <!-- Inner ring -->    <circle cx="120" cy="120" r="40" stroke="#1a365d"></circle>  </g>    <!-- White circles behind dots -->  <circle cx="180" cy="60" r="16" fill="white"></circle>  <circle cx="180" cy="180" r="16" fill="white"></circle>  <circle cx="60" cy="180" r="16" fill="white"></circle>  <circle cx="60" cy="60" r="16" fill="white"></circle>    <!-- Dots connecting arc segments -->  <circle cx="180" cy="60" r="12" fill="#4299e1"></circle>  <circle cx="180" cy="180" r="12" fill="#f6ad55"></circle>  <circle cx="60" cy="180" r="12" fill="#4299e1"></circle>  <circle cx="60" cy="60" r="12" fill="#4299e1"></circle></svg>
