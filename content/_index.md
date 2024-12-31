@@ -1,18 +1,5 @@
 ---
 title: Home
-testimonials:
-  - name: "John Smith"
-    title: "CTO at TechStartup"
-    avatar: "/images/testimonial-1.svg"
-    quote: "We built our SaaS website in record time. The performance is incredible, and our users love the modern, clean design."
-  - name: "Sarah Johnson"
-    title: "Founder at WebFlow"
-    avatar: "/images/testimonial-1.svg"
-    quote: "The combination of Hugo and TailwindCSS delivers lightning-fast performance. Our website loads instantly, which has significantly improved our conversion rates."
-  - name: "Michael Chen"
-    title: "Lead Developer at CloudTech"
-    avatar: "/images/testimonial-1.svg"
-    quote: "This theme made it easy to create a professional SaaS website. The build times are incredibly fast, and the code is clean and maintainable."
 ---
 
 {{< hero 
@@ -30,7 +17,7 @@ testimonials:
 
 {{< features-section 
     title="Streamline Your Business Operations"
-    description="Discover how Omniroo automates your customer lifecycle with powerful integration features."
+    description="Start to automate your customer lifecycle with elegant data sync by Omniroo."
 >}}
 
 {{< feature
@@ -70,12 +57,5 @@ testimonials:
 >}}
 
 {{< /features-section >}}
-
-{{< testimonials 
-    title="Trusted by Modern Web Teams"
-    description="See how teams are building better websites with our theme."
-    animate="true"
-    background-color="#f1f5f9"
->}}
 
 {{< cta >}}

@@ -28,21 +28,22 @@ enableGitInfo = true      # Enable Git info for lastmod
   [params.header.logo]
     src = "/images/logo.svg"
   
-  # Footer
-  footerTitle = "Ready to get started?"
-  footerDescription = "Get in touch or create an account."
-  footerCopyrightText = "© 2024 Omniroo. All rights reserved."
+  # Global CTA Configuration
+  [params.cta]
+    enable = true
+    title = "Power Your Growth with Data Syncing"
+    description = "Streamline subscriptions, prevent revenue loss, and scale with Stripe-HubSpot integration."
+    gradient_from = "#7c3aed"  # Indigo-600
+    gradient_to = "#1a365d"    # Purple-600
+    gradient_angle = 160
+    [params.cta.primary_button]
+      text = "Get Started Free"
+      url = "/get-started"
+    [params.cta.secondary_button]
+      text = "Book Demo"
+      url = "/demo"
 
-  # Call to action
-  ctaTitle = "Ready to dive in?"
-  ctaDescription = "Start your free trial today."
-  ctaButtonText = "Get started"
-  ctaButtonUrl = "#"
 
-  # Social links
-  twitter = "#"
-  github = "#"
-  linkedin = "#"
 
 [menu]
   [[menu.main]]
