@@ -1,101 +1,48 @@
 ---
 title: "Pricing"
-description: "Choose the perfect plan for your needs"
-layout: "pricing"
+description: ""
+layout: "pricing-custom"
 ---
 
-{{< pricing-table-1 >}}
+{{< pricing-table-custom >}}
 {
-    "title": "Designed for business teams like yours",
-    "description": "Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.",
+    "title": "Pricing",
+    "description": "Flexible Pricing for Every Stage of Your SaaS Growth",
     "plans": [
         {
-            "name": "Starter",
-            "price": "29",
-            "description": "Best option for personal use & for your next project.",
+            "name": "Free",
+            "price": "0",
+            "priceSuffix": "/month",
+            "description": "For new SaaS ventures setting up data visualization and pipeline management from day one",
             "features": [
-                "Individual configuration",
-                "No setup, or hidden fees",
-                "Team size: 1 developer",
-                "Premium support: 6 months",
-                "Free updates: 6 months"
+                "1,000 sync events included",
+                "Real-time sync of Stripe subscriptions into HubSpot deals pipeline",
+                "Real-time sync of Stripe customers into HubSpot contacts",
+                "Real-time sync of Stripe invoices into HubSpot invoices",
+                "Custom mapping of subscription deal stages",
+                "Usage alerts when approaching your monthly limit",
+                "Automatic pause of syncs once the cap is reached"
             ],
             "button": {
-                "text": "Get started",
+                "text": "Get Started",
                 "url": "#"
             }
         },
         {
-            "name": "Company",
-            "price": "99",
-            "description": "Relevant for multiple users, extended & premium support.",
-            "featured": true,
+            "name": "Pro",
+            "price": "49",
+            "priceSuffix": "/month",
+            "description": "For growing SaaS companies refining their data-driven pipeline workflows to accelerate growth",
             "features": [
-                "Individual configuration",
-                "No setup, or hidden fees",
-                "Team size: 10 developers",
-                "Premium support: 24 months",
-                "Free updates: 24 months"
-            ],
-            "button": {
-                "text": "Get started",
-                "url": "#"
-            }
-        },
-        {
-            "name": "Enterprise",
-            "price": "499",
-            "description": "Best for large scale uses and extended redistribution rights.",
-            "features": [
-                "Individual configuration",
-                "No setup, or hidden fees",
-                "Team size: 100+ developers",
-                "Premium support: 36 months",
-                "Free updates: 36 months"
-            ],
-            "button": {
-                "text": "Get started",
-                "url": "#"
-            }
-        }
-    ]
-}
-{{< /pricing-table-1 >}}
-
-<div class="mt-16"></div>
-
-{{< pricing-table-2 >}}
-{
-    "title": "Alternative Pricing Options",
-    "description": "Choose a plan that best suits your business needs with our flexible pricing options.",
-    "plans": [
-        {
-            "name": "Basic",
-            "price": "19",
-            "description": "Perfect for freelancers and solo developers.",
-            "features": [
-                "Core features included",
-                "Community support",
-                "Team size: 1 developer",
-                "Basic analytics",
-                "Monthly updates"
-            ],
-            "button": {
-                "text": "Choose Basic",
-                "url": "#"
-            }
-        },
-        {
-            "name": "Professional",
-            "price": "79",
-            "description": "Ideal for growing development teams.",
-            "featured": true,
-            "features": [
-                "All Basic features",
-                "Priority support",
-                "Team size: up to 5 developers",
-                "Advanced analytics",
-                "CI/CD integration"
+                "10,000 sync events included",
+                "$0.01 per additional event",
+                "Real-time sync of Stripe subscriptions into HubSpot deals pipeline",
+                "Real-time sync of Stripe customers into HubSpot contacts",
+                "Real-time sync of Stripe invoices into HubSpot invoices",
+                "Custom mapping of subscription deal stages",
+                "Usage notification on usage consumption",
+                "Email support (48-hour SLA)",
+                "Seamless syncing even if you exceed your monthly allowance"
             ],
             "button": {
                 "text": "Choose Pro",
@@ -105,22 +52,51 @@ layout: "pricing"
         {
             "name": "Business",
             "price": "299",
-            "description": "For large organizations and enterprises.",
+            "priceSuffix": "/month",
+            "description": "For scaling SaaS companies expanding transaction volumes and advancing pipeline automation",
+            "featured": true,
             "features": [
-                "All Pro features",
-                "24/7 dedicated support",
-                "Unlimited team size",
-                "Custom integrations",
-                "SLA guarantee"
+                "100,000 sync events included",
+                "$0.005 per additional event",
+                "Real-time sync of Stripe subscriptions into HubSpot deals pipeline",
+                "Real-time sync of Stripe customers into HubSpot contacts",
+                "Real-time sync of Stripe invoices into HubSpot invoices",
+                "Custom mapping of subscription deal stages",
+                "Usage notification on usage consumption",
+                "Email support (48-hour SLA)",
+                "Seamless syncing even if you exceed your monthly allowance"
             ],
             "button": {
                 "text": "Choose Business",
                 "url": "#"
             }
+        },
+        {
+            "name": "Enterprise",
+            "price": "Custom",
+            "priceSuffix": "",
+            "description": "For large SaaS organisations requiring tailored integrations, SLAs, and dedicated success plans",
+            "features": [
+                "Custom sync event allowance",
+                "Custom overage pricing",
+                "Real-time sync of Stripe subscriptions into HubSpot deals pipeline",
+                "Real-time sync of Stripe customers into HubSpot contacts",
+                "Real-time sync of Stripe invoices into HubSpot invoices",
+                "Custom mapping of subscription deal stages",
+                "Custom annual contract and usage",
+                "Email (24-hour SLA) and video call support",
+                "Dedicated Customer Success Manager",
+                "Custom Success Program tailored to your business",
+                "Seamless syncing even if you exceed your monthly allowance"
+            ],
+            "button": {
+                "text": "Contact Sales",
+                "url": "#"
+            }
         }
     ]
 }
-{{< /pricing-table-2 >}}
+{{< /pricing-table-custom >}}
 
 {{< faq >}}
 {
@@ -128,24 +104,40 @@ layout: "pricing"
     "description": "Find answers to frequently asked questions about our pricing plans and features.",
     "questions": [
         {
-            "question": "What type of payment do you accept?",
-            "answer": "We accept all major credit cards, PayPal, and bank transfers. All payments are processed securely through our payment providers."
+            "question": "What happens if I exceed the included sync events in my plan?",
+            "answer": "If you're on the Pro, Business, or Enterprise plan, syncing continues without interruption. You'll be billed for additional Stripe events at your plan's overage rate."
         },
         {
-            "question": "Do you offer custom pricing for larger teams?",
-            "answer": "Yes! If you have specific needs or a larger team, please contact our sales team for custom pricing tailored to your requirements."
+            "question": "What happens when I hit the event cap on the Free plan?",
+            "answer": "Once you reach the 1,000-event cap, syncing will pause automatically until the start of your next billing cycle. You'll receive alerts as you approach the cap."
         },
         {
-            "question": "What's included in the free updates?",
-            "answer": "Free updates include all new features, improvements, and bug fixes released during your subscription period. You'll always have access to the latest version."
+            "question": "Can I upgrade or downgrade my plan at any time?",
+            "answer": "Yes, you can change your plan anytime from your account dashboard. Upgrades take effect immediately. Downgrades take effect at the end of your current billing period."
         },
         {
-            "question": "What kind of support is included?",
-            "answer": "All plans include technical support, with varying response times based on your plan level. Enterprise customers get priority support with dedicated account managers."
+            "question": "What counts as a \"sync event\"?",
+            "answer": "A sync event corresponds to a Stripe event that's processed and synced into HubSpot. For example, an invoice may generate multiple Stripe events — such as `invoice.created`, `invoice.finalized`, and `invoice.paid` — each of which counts as a separate sync event."
         },
         {
-            "question": "Can I upgrade or downgrade my plan?",
-            "answer": "Yes, you can change your plan at any time. When upgrading, you'll be prorated for the remainder of your billing period. When downgrading, changes take effect at the next billing cycle."
+            "question": "Do I need technical knowledge to set this up?",
+            "answer": "No coding required. Setup is fast and intuitive, with a guided onboarding flow. Our support team is also available to assist if needed."
+        },
+        {
+            "question": "Is there a trial for paid plans?",
+            "answer": "You can start with the Free plan and upgrade when you're ready. If you'd like to evaluate a higher tier, reach out and we can arrange a trial or demo."
+        },
+        {
+            "question": "Do you offer plans for agencies or partners?",
+            "answer": "Yes. We support agencies, consultants, and platform partners with flexible pricing and onboarding support. Get in touch to learn more."
+        },
+        {
+            "question": "What payment methods are accepted?",
+            "answer": "We accept all major credit and debit cards via Stripe. Invoicing is available for Enterprise customers."
+        },
+        {
+            "question": "Can I cancel anytime?",
+            "answer": "Yes. You can cancel your subscription at any time. Your plan will remain active through the end of your billing cycle."
         }
     ]
 }

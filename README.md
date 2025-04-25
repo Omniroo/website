@@ -32,7 +32,6 @@ flowchart TD
 
     Legal --> Privacy("/privacy")
     Legal --> Terms("/terms")
-    Legal --> Security("/security")
 
     style Home fill:#2563eb,color:white
     style Features fill:#7c3aed,color:white
