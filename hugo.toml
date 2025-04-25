@@ -62,3 +62,46 @@ enableGitInfo = true      # Enable Git info for lastmod
     name = "Contact"
     url = "/contact"
     weight = 4
+
+[params.footer]
+  column_1_title = "Features"
+  column_2_title = "Company"
+  column_3_title = "Legal"
+
+  # Footer Column 1 Menu
+  [[menu.footer_column_1]]
+    name = "Performance"
+    url = "/features/performance/"
+    weight = 1
+  [[menu.footer_column_1]]
+    name = "Design System"
+    url = "/features/design-system/"
+    weight = 2
+  [[menu.footer_column_1]]
+    name = "Developer Experience"
+    url = "/features/developer-experience/"
+    weight = 3
+
+  # Footer Column 2 Menu
+  [[menu.footer_column_2]]
+    name = "Blog"
+    url = "/blog"
+    weight = 1
+  [[menu.footer_column_2]]
+    name = "About Us"
+    url = "/company"
+    weight = 2
+  [[menu.footer_column_2]]
+    name = "Careers"
+    url = "/careers"
+    weight = 3
+
+  # Footer Column 3 Menu
+  [[menu.footer_column_3]]
+    name = "Privacy Policy"
+    url = "/privacy"
+    weight = 1
+  [[menu.footer_column_3]]
+    name = "Terms of Service"
+    url = "/terms"
+    weight = 2
