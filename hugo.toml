@@ -27,6 +27,18 @@ enableGitInfo = true      # Enable Git info for lastmod
   # Header Logo
   [params.header.logo]
     src = "/images/logo.svg"
+
+  # Button configuration
+  [params.header.buttons]
+    # Sign In button
+    [params.header.buttons.signIn]
+      text = "Sign in"
+      url = "https://app.omniroo.com/"
+    
+    # Get Started button
+    [params.header.buttons.getStarted]
+      text = "Get Started"
+      url = "https://app.omniroo.com/signup"
   
   # Global CTA Configuration
   [params.cta]
