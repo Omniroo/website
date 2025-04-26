@@ -25,7 +25,7 @@ layout: "pricing-custom"
             ],
             "button": {
                 "text": "Get Started",
-                "url": "#"
+                "url": "https://app.omniroo.com/signup"
             }
         },
         {
@@ -46,7 +46,7 @@ layout: "pricing-custom"
             ],
             "button": {
                 "text": "Choose Pro",
-                "url": "#"
+                "url": "https://app.omniroo.com/signup"
             }
         },
         {
@@ -68,7 +68,7 @@ layout: "pricing-custom"
             ],
             "button": {
                 "text": "Choose Business",
-                "url": "#"
+                "url": "https://app.omniroo.com/signup"
             }
         },
         {

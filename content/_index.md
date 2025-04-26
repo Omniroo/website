@@ -3,10 +3,10 @@ title: Home
 ---
 
 {{< hero 
-    headline="Automate Your Customer Lifecycle"
-    sub_headline="Seamlessly sync Stripe payments and subscriptions with HubSpot CRM. Streamline customer onboarding, automate interactions, and enhance your business operations with real-time data synchronization."
-    primary_button_text="Get Started Free"
-    primary_button_url="#"
+    headline="Boost Conversions, Reduce Churn"
+    sub_headline="Sync Stripe subscriptions into HubSpot deals pipeline — visualize and manage your subscription lifecycle, automate customer communications, and recover failed payments in real time."
+    primary_button_text="Get Started for Free"
+    primary_button_url="https://app.omniroo.com/signup"
     secondary_button_text="View Demo"
     secondary_button_url="#"
     hero_image="/images/hero-dashboard.svg"
@@ -16,8 +16,8 @@ title: Home
 >}}
 
 {{< features-section 
-    title="Streamline Your Business Operations"
-    description="Start to automate your customer lifecycle with elegant data sync by Omniroo."
+    title="Streamline Subscription Pipeline"
+    description="Manage your HubSpot pipeline with data sync from Stripe subscriptions."
 >}}
 
 {{< feature
