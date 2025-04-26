@@ -1,0 +1,19 @@
+---
+title: "Sync Stripe to HubSpot"
+description: "Automatically sync Stripe subscriptions, customers and invoices to HubSpot with real-time data flow and customizable field mappings."
+layout: "feature"
+badge: "How it Works"
+badgeColor: "#4f46e5"  # A lighter indigo shade that contrasts with homepage colors
+features:
+  - title: "Create a Project"
+    description: "Set up a new integration project with a name and description to organize your Stripe-HubSpot connection"
+  - title: "Connect Stripe"
+    description: "Securely authenticate with your Stripe account using OAuth to enable data access"
+  - title: "Connect HubSpot"
+    description: "Authorize access to your HubSpot CRM to enable deal and contact synchronization"
+  - title: "Map Deal Stages"
+    description: "Configure how Stripe subscription statuses map to HubSpot deal pipeline stages"
+demo:
+  description: "Explore our comprehensive design system built with TailwindCSS."
+  image: "/images/feature-2.svg"
+---

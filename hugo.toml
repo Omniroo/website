@@ -81,8 +81,8 @@ enableGitInfo = true      # Enable Git info for lastmod
 
 [menu]
   [[menu.main]]
-    name = "Features"
-    url = "/features"
+    name = "How it Works"
+    url = "/how_it_works"
     weight = 1
   [[menu.main]]
     name = "Pricing"
