@@ -91,22 +91,22 @@ enableGitInfo = true      # Enable Git info for lastmod
     weight = 3
 
 [params.footer]
-  column_1_title = "Features"
-  column_2_title = "Company"
+  column_1_title = "Product"
+  column_2_title = "Learn"
   column_3_title = "Legal"
 
   # Footer Column 1 Menu
   [[menu.footer_column_1]]
-    name = "Performance"
-    url = "/features/performance/"
+    name = "Home"
+    url = "/"
     weight = 1
   [[menu.footer_column_1]]
-    name = "Design System"
-    url = "/features/design-system/"
+    name = "How it Works"
+    url = "/how_it_works/"
     weight = 2
   [[menu.footer_column_1]]
-    name = "Developer Experience"
-    url = "/features/developer-experience/"
+    name = "Pricing"
+    url = "/pricing/"
     weight = 3
 
   # Footer Column 2 Menu
@@ -114,14 +114,6 @@ enableGitInfo = true      # Enable Git info for lastmod
     name = "Blog"
     url = "/blog"
     weight = 1
-  [[menu.footer_column_2]]
-    name = "About Us"
-    url = "/company"
-    weight = 2
-  [[menu.footer_column_2]]
-    name = "Careers"
-    url = "/careers"
-    weight = 3
 
   # Footer Column 3 Menu
   [[menu.footer_column_3]]
