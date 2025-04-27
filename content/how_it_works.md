@@ -7,13 +7,20 @@ badgeColor: "#4f46e5"  # A lighter indigo shade that contrasts with homepage col
 features:
   - title: "Create a Project"
     description: "Set up a new integration project with a name and description to organize your Stripe-HubSpot connection"
+    badge: "Step 1"
+    badgeColor: "#4f46e5"
   - title: "Connect Stripe"
     description: "Securely authenticate with your Stripe account using OAuth to enable data access"
+    badge: "Step 2"
+    badgeColor: "#7c3aed"
   - title: "Connect HubSpot"
     description: "Authorize access to your HubSpot CRM to enable deal and contact synchronization"
+    badge: "Step 3"
+    badgeColor: "#16a34a"
   - title: "Map Deal Stages"
     description: "Configure how Stripe subscription statuses map to HubSpot deal pipeline stages"
-demo:
-  description: "Explore our comprehensive design system built with TailwindCSS."
-  image: "/images/feature-2.svg"
+    badge: "Step 4"
+    badgeColor: "#d946ef"
+youtubeVideoId: "ok0l0ECmk9o"
+demoDescription: "Watch a quick demo of how Omniroo syncs Stripe to HubSpot."
 ---

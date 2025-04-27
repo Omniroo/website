@@ -8,7 +8,7 @@ title: Home
     primary_button_text="Get Started for Free"
     primary_button_url="https://app.omniroo.com/signup"
     secondary_button_text="View Demo"
-    secondary_button_url="#"
+    secondary_button_url="/how_it_works/"
     hero_image="/images/hero-dashboard.svg"
     gradient-from="#bfdbfe"
     gradient-to="#ffffff"
@@ -27,7 +27,7 @@ title: Home
     badgeColor="#2563eb"
     image="/images/feature-1.svg"
     buttonText="Learn More"
-    buttonLink="/features/performance/"
+    buttonLink="/how_it_works/"
     features="Power automated upgrade offers,Optimize workflows for trial conversions,Prioritize high-potential users"
     imagePosition="right"
 >}}
@@ -39,7 +39,7 @@ title: Home
     badgeColor="#7c3aed"
     image="/images/feature-2.svg"
     buttonText="Learn More"
-    buttonLink="/features/design-system/"
+    buttonLink="/how_it_works/"
     features="Automate follow-ups for failed payments,Alert at-risk accounts proactively,Enable billing and renewal tracking"
     imagePosition="left"
 >}}
@@ -51,7 +51,7 @@ title: Home
     badgeColor="#16a34a"
     image="/images/feature-3.svg"
     buttonText="Learn More"
-    buttonLink="/features/developer-experience/"
+    buttonLink="/how_it_works/"
     features="Sync data between Stripe and HubSpot,Stream real-time data integration,Grow with scalable workflows and data"
     imagePosition="right"
 >}}

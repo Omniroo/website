@@ -51,9 +51,6 @@ enableGitInfo = true      # Enable Git info for lastmod
     [params.cta.primary_button]
       text = "Get Started for Free"
       url = "https://app.omniroo.com/signup"
-    [params.cta.secondary_button]
-      text = "Book Demo"
-      url = "/demo"
 
   # Blog configuration
   [params.blog]
