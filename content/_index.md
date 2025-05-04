@@ -25,7 +25,7 @@ title: Home
     description="Enable seamless processes to convert free and trial users into paying customers."
     badge="Growth"
     badgeColor="#2563eb"
-    image="/images/feature-subscription.png"
+    image="/images/feature-upsell.png"
     buttonText="Learn More"
     buttonLink="/how_it_works/"
     features="Power automated upgrade offers,Optimize workflows for trial conversions,Prioritize high-potential users"
