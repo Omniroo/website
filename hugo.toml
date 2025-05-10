@@ -114,6 +114,10 @@ enableGitInfo = true      # Enable Git info for lastmod
     name = "Blog"
     url = "/blog"
     weight = 1
+  [[menu.footer_column_2]]
+    name = "Contact Us"
+    url = "/contact"
+    weight = 2
 
   # Footer Column 3 Menu
   [[menu.footer_column_3]]

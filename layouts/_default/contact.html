@@ -1,0 +1,35 @@
+{{ define "main" }}
+<div class="bg-gradient-to-b from-gray-50 to-white">
+    <div class="container mx-auto px-4 py-16 mb-12 flex-1">
+        <h1 class="text-4xl font-bold text-center mb-16">{{ .Title }}</h1>
+        
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-24">
+            <!-- Left Column: Content -->
+            <div class="prose prose-lg max-w-none">
+                {{ .Content }}
+            </div>
+            
+            <!-- Right Column: Form -->
+            <div class="bg-white rounded-xl shadow-xl p-8 border border-gray-100">
+                <div class="mb-8">
+                    <p class="text-gray-600">Complete the form below to get in touch with us for any inquiries or support.</p>
+                </div>
+                
+                <div class="hubspot-form-wrapper min-h-[400px]">
+                    {{ partial "shortcodes/contact-form.html" . }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.hubspot-form-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.hubspot-form-container {
+    width: 100%;
+}
+</style>
+{{ end }}
