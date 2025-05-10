@@ -91,7 +91,7 @@ layout: "pricing-custom"
             ],
             "button": {
                 "text": "Contact Sales",
-                "url": "#"
+                "url": "/enterprise-plan"
             }
         }
     ]
