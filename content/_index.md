@@ -3,7 +3,7 @@ title: Home
 ---
 
 {{< hero 
-    headline="Boost Conversions, Reduce Churn"
+    headline="Empower SaaS Growth with Data"
     sub_headline="Sync Stripe subscriptions into HubSpot deals pipeline — visualize and manage your subscription lifecycle, automate customer communications, and recover failed payments in real time."
     primary_button_text="Get Started for Free"
     primary_button_url="https://app.omniroo.com/signup"
