@@ -76,7 +76,7 @@
             }
         </style>
         <div class="mt-10 mx-auto max-w-4xl rounded-xl shadow-elevation video-container">
-            <iframe src="https://www.youtube.com/embed/{{ .Params.youtubeVideoId }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="w-full rounded-xl shadow-elevation"></iframe>
+            <iframe src="https://www.youtube.com/embed/{{ .Params.youtubeVideoId }}?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="w-full rounded-xl shadow-elevation"></iframe>
         </div>
     </div>
     {{ else if .Params.demo.image }}
