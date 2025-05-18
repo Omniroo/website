@@ -21,6 +21,6 @@ features:
     description: "Configure how Stripe subscription statuses map to HubSpot deal pipeline stages"
     badge: "Step 4"
     badgeColor: "#d946ef"
-youtubeVideoId: "ok0l0ECmk9o"
+youtubeVideoId: "89az4ZqQsq8"
 demoDescription: "Watch a quick demo of how Omniroo syncs Stripe to HubSpot."
 ---
