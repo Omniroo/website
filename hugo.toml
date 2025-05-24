@@ -23,6 +23,7 @@ enableGitInfo = true      # Enable Git info for lastmod
   description = "Make data sync simple"
   author = "Omniroo"
   logo = "/images/logo.svg"
+  googleTagManager = "GTM-T4T7S8MR"
 
   # Header Logo
   [params.header.logo]
