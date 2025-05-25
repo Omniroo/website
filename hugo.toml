@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://omniroo.com/'
 languageCode = 'en-us'
 title = 'Omniroo'
 theme = 'hugo-saasify-theme'
