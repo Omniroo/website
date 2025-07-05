@@ -88,13 +88,38 @@ enableGitInfo = true      # Enable Git info for lastmod
     url = "/how_it_works"
     weight = 1
   [[menu.main]]
+    name = "Docs"
+    url = "/docs/get-started"
+    weight = 2
+  [[menu.main]]
     name = "Pricing"
     url = "/pricing"
-    weight = 2
+    weight = 3
   [[menu.main]]
     name = "Blog"
     url = "/blog"
-    weight = 3
+    weight = 4
+
+[params.docs]
+  enable = true
+  title = "Documentation"
+  description = "Omniroo Documentation"
+  sidebar = true
+  versioning = true
+  search = true
+
+[[redirects]]
+  from = "/docs"
+  to = "/docs/get-started"
+  status = 301
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
+  section = ["HTML"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
+  docs = ["HTML"]
 
 [params.footer]
   column_1_title = "Product"
