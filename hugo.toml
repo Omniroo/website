@@ -142,13 +142,17 @@ enableGitInfo = true      # Enable Git info for lastmod
 
   # Footer Column 2 Menu
   [[menu.footer_column_2]]
+    name = "Docs"
+    url = "/docs/get-started"
+    weight = 1
+  [[menu.footer_column_2]]
     name = "Blog"
     url = "/blog"
-    weight = 1
+    weight = 2
   [[menu.footer_column_2]]
     name = "Contact Us"
     url = "/contact"
-    weight = 2
+    weight = 3
 
   # Footer Column 3 Menu
   [[menu.footer_column_3]]
@@ -159,3 +163,7 @@ enableGitInfo = true      # Enable Git info for lastmod
     name = "Terms of Service"
     url = "/terms"
     weight = 2
+  [[menu.footer_column_3]]
+    name = "Security"
+    url = "/Security"
+    weight = 3
