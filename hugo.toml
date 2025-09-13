@@ -57,7 +57,7 @@ enableGitInfo = true      # Enable Git info for lastmod
   [params.blog]
     enable = true
     title = "Latest Articles"
-    subtitle = "Learn more about SaaS CRM and auotmation"
+    subtitle = "Learn more about SaaS CRM and automation"
 
     # Blog CTA configuration
     [params.blog.cta]
