@@ -47,6 +47,7 @@ jobs:
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
+          NODE_OPTIONS: '--allow-fs-read=*'
         run: hugo --minify
 
       - name: Upload artifact
