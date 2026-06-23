@@ -8,6 +8,11 @@
     "start": "concurrently \"npx tailwindcss -i themes/hugo-saasify-theme/assets/css/main.css -o static/css/style.css --watch\" \"hugo server -D\"",
     "build": "tailwindcss -i themes/hugo-saasify-theme/assets/css/main.css -o static/css/style.css --minify && hugo --minify"
   },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.10",
